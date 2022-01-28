@@ -1,10 +1,10 @@
 version: "3.7"
 services:
     # image project
-    project_x:
+    animes_list:
         build: 
             args: 
-                user: carlos
+                user: diego
                 uid: 1000
             context: ./
             dockerfile: Dockerfile
